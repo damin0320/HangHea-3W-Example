@@ -1,0 +1,121 @@
+* {
+  margin :0;;
+  padding: 0;
+  box-sizing: border-box;
+  /* 눈에 보이는데로 할 수 있음 */
+}
+
+body {
+  padding: 20px;
+}
+
+/* app-title */
+.app-title {
+  margin-bottom: 20px;
+}
+
+/* Todo container */
+.todo-container {
+  display:flex;
+  gap: 20px;
+}
+
+
+/* box area */
+.box-area {
+  max-width: 300px;
+  width: 100%;
+}
+
+.box-area h2{
+  margin-bottom: 10px;
+}
+
+
+/* input-controls */
+
+.input-controls{
+  margin-bottom: 10px;
+
+}
+
+.input-controls label{
+  font-size: 12px;
+  margin-right: 10px; 
+  color : grey;
+ 
+}
+
+.input-controls input {
+  padding: 3px 6px 2px 6px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+
+}
+
+/* button */
+button{
+  cursor: pointer;
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 3px;
+  font-weight: bold;
+  border : 0;
+  color:white;
+}
+.add-btn {
+
+  background-color:#2192FF;
+  
+}
+
+.add-btn:hover {
+  background-color: #0082FF
+}
+
+.remove-btn {
+  background-color: orangered;
+}
+
+.remove-btn:hover {
+  background-color: #de3a00;
+}
+
+.done-btn{
+  background-color: yellowgreen;
+}
+
+.done-btn:hover{
+  background-color: #84b225;
+}
+
+.cancel-btn {
+  background-color:dimgray;
+}
+
+.cancel-btn:hover {
+  background-color:#585757;
+}
+
+.btn-group {
+  display: flex;
+  gap: 10px;
+}
+
+/* todo list item */
+
+ol,
+ul {
+  list-style: none;
+}
+
+.todo-item {
+  border : 1px solid lightgray;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom : 10px;
+}
+
+.todo-item .todo-content {
+  padding : 10px 10px 10px 0px;
+}
