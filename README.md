@@ -18,8 +18,7 @@
 
 ## 기술 스택
 
-HTML / CSS / JavaScript / React / git / gitHub / Vercel
-
+HTML / CSS / JavaScript / React / git / gitHub
 <br>
 
 ## 구현 기능
@@ -36,6 +35,8 @@ HTML / CSS / JavaScript / React / git / gitHub / Vercel
 ### 기능 3 : TodoList 완료 및 취소
 - map 메서드를 활용하여 item.id와 매개변수 id와 비교 후 삼항 연산자 이용한 등록 및 취소
 - filter로 받은 데이터 map으로 다시 돌려서 값 추정
+
+### 기능 4 : 라우터 이용한 home / todolist 페이지 쪼개기
 
 ### 빈 칸 입력시 입력 못하게 하기와 엔터키 눌렀을 때 바로 입력되는 기능 추가
 <br>
